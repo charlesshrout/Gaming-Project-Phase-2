@@ -1,0 +1,67 @@
+{
+    "games":[
+    {
+        "id": 1,
+        "name": "Fortnite",
+        "genre": "multiplayer",
+        "image": "https://assets1.ignimgs.com/2018/03/06/fortnite---button-1520296499714.jpg",
+        "review": 7.5,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 2,
+        "name": "Overwatch 2",
+        "genre": "multiplayer",
+        "image": "https://assets-prd.ignimgs.com/2022/06/23/overwatch-2-button-fin-1656022954568.jpg",
+        "review": 9.0,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 3,
+        "name": "F1 2022",
+        "genre": "multiplayer",
+        "image": "https://assets-prd.ignimgs.com/2022/04/21/f1-2022-1650559281245.jpg?width=300&crop=1%3A1%2Csmart&dpr=2",
+        "review": 6.5 ,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 4,
+        "name": "Rocket League",
+        "genre": "multiplayer",
+        "image": "https://image.api.playstation.com/vulcan/ap/rnd/202208/2223/ymb3baeiv9sqw1mJqb6thOex.png",
+        "review": 8.5 ,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 5,
+        "name": "Rainbow Six Siege",
+        "genre": "multiplayer",
+        "image": "https://assets2.ignimgs.com/2015/03/31/r6-siege-button-02jpg-b778df.jpg?width=300&crop=1%3A1%2Csmart&dpr=2",
+        "review": 7.0,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 6,
+        "name": "Multiversus",
+        "genre": "multiplayer",
+        "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1818750/capsule_616x353.jpg?t=1664307134",
+        "review": 5,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 51,
+        "name": "",
+        "genre": "",
+        "image": "",
+        "review": 0,
+        "played": false,
+        "description": ""
+    }
+    ]
+}
