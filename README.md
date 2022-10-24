@@ -22,6 +22,13 @@ PLAN TO EXECUTE:
 
 IDEA CHART: https://lucid.app/lucidspark/46a64279-82df-4548-8f0a-fcc3de5ba1e0/edit?invitationId=inv_7ca3a5ba-5118-4729-8750-3928603c1868#
 
+
+MY CHALLENGES:
+- Getting CSS to the standard I am envisioning
+- Having my Game Cards click and display more review information
+- Being able to search by genre OR name
+
+
 STRETCH GOALS:
 - Can I make my CSS as smooth as possible?
 - Can I sort my data by review score?
