@@ -1,15 +1,24 @@
-import React, {useState} from "react";
+import React, {useState, useSyncExternalStore} from "react";
 
 function GameCard({game}) {
   const [played, setPlayed] = useState(false)
-  const {name, image, review} = game
+  const [showFront, setShowFront] = useState(true)
+  const {name, image, review, description} = game
 
+  function handleClick(){
+    setShowFront((showFront) => !showFront)
+  }
   function handleTogglePlayed(){
     setPlayed((played) => !played)
   }
   return(
     <li className="card">
-      <img src={image} alt={name} />
+        <div onClick= {handleClick}>
+        {showFront ? 
+        (<img src={image} alt={name}/>) : (
+            <p className= "description">{description}</p>
+        )}
+      </div>
       <h4>{name}</h4>
       <p>Review: {review}</p>
       {played ? (

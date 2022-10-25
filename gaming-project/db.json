@@ -7,7 +7,7 @@
         "image": "https://assets1.ignimgs.com/2018/03/06/fortnite---button-1520296499714.jpg",
         "review": 7.5,
         "played": false,
-        "description": ""
+        "description": "Battle Royale! Play with friends"
     },
     {
         "id": 2,
@@ -16,7 +16,7 @@
         "image": "https://assets-prd.ignimgs.com/2022/06/23/overwatch-2-button-fin-1656022954568.jpg",
         "review": 9.0,
         "played": false,
-        "description": ""
+        "description": "Competitive mulptiplayer where teamwork is essential!"
     },
     {
         "id": 3,
@@ -25,7 +25,7 @@
         "image": "https://assets-prd.ignimgs.com/2022/04/21/f1-2022-1650559281245.jpg?width=300&crop=1%3A1%2Csmart&dpr=2",
         "review": 6.5 ,
         "played": false,
-        "description": ""
+        "description": "If you don't like F1, don't play this!"
     },
     {
         "id": 4,
@@ -55,13 +55,401 @@
         "description": ""
     },
     {
-        "id": 51,
-        "name": "",
-        "genre": "",
-        "image": "",
-        "review": 0,
+        "id": 7,
+        "name": "Elden Ring",
+        "genre": "single-player",
+        "image": "https://assets-prd.ignimgs.com/2021/06/12/elden-ring-button-03-1623460560664.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 9.7,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 8,
+        "name": "Hades",
+        "genre": "single-player",
+        "image": "https://assets-prd.ignimgs.com/2020/09/17/hades-button-fin-1600382124693.png?width=300&crop=1%3A1%2Csmart",
+        "review": 7.3,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 9,
+        "name": "The Long Dark",
+        "genre": "single-player",
+        "image": "https://assets-prd.ignimgs.com/2020/09/17/the-long-dark-button-1600382473667.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 6,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 10,
+        "name": "Stardew Valley",
+        "genre": "multiplayer",
+        "image": "https://assets-prd.ignimgs.com/2021/12/20/stardewvalley-1640044262769.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 9.3,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 11,
+        "name": "GTA V",
+        "genre": "multiplayer",
+        "image": "https://assets-prd.ignimgs.com/2021/12/17/gta-5-button-2021-1639777058682.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 7,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 12,
+        "name": "Battlefield 2042",
+        "genre": "multiplayer",
+        "image": "https://assets-prd.ignimgs.com/2021/06/09/battlefield-2042-button-fin-1623262719242.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 6,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 13,
+        "name": "Mortal Kombat 11",
+        "genre": "multiplayer",
+        "image": "https://assets1.ignimgs.com/2019/04/17/mortal-kombat-11---button-fin-1555536171865.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 4.3,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 14,
+        "name": "Death Stranding",
+        "genre": "single-player",
+        "image": "https://assets1.ignimgs.com/2019/07/21/death-stranding---button-20197-1563692244528.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 6.2,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 15,
+        "name": "Battlefield V",
+        "genre": "multiplayer",
+        "image": "https://assets1.ignimgs.com/2018/05/23/battlefield-v---button-fin-1527112517144.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 8.2,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 16,
+        "name": "CyberPunk 2077",
+        "genre": "single-player",
+        "image": "https://assets-prd.ignimgs.com/2020/07/16/cyberpunk-2077-button-fin-1594877291453.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 7.1,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 17,
+        "name": "Red Dead Redemption II",
+        "genre": "single-player",
+        "image": "https://assets1.ignimgs.com/2016/10/18/red-dead-redemption-2-buttonjpg-f9ad35.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 9.8,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 18,
+        "name": "Ghost of Tsushima",
+        "genre": "single-player",
+        "image": "https://assets1.ignimgs.com/2020/03/10/ghost-of-tsushima---button-fin-1583873623584.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 9.7,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 19,
+        "name": "Hell Let Loose",
+        "genre": "multiplayer",
+        "image": "https://assets-prd.ignimgs.com/2021/12/17/hell-let-loose-button-fin-1639779627909.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 8.6,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 20,
+        "name": "Horizon Forbidden West",
+        "genre": "single-player",
+        "image": "https://assets-prd.ignimgs.com/2022/03/30/forbiddenwest-1648659613888.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 4,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 21,
+        "name": "The Last of Us Part II",
+        "genre": "single-player",
+        "image": "https://assets1.ignimgs.com/2020/03/05/last-of-us-2---button-2020-1583430650540.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 9.9,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 22,
+        "name": "Lego Star Wars (2022)",
+        "genre": "single-player",
+        "image": "https://assets-prd.ignimgs.com/2022/03/31/skywalkersaga-1648748035384.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 5,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 23,
+        "name": "Hitman 3",
+        "genre": "single-player",
+        "image": "https://assets-prd.ignimgs.com/2020/09/11/hitman-3-button-2020-v1-1599867593904.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 8.6,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 24,
+        "name": "Sifu",
+        "genre": "single-player",
+        "image": "https://assets-prd.ignimgs.com/2022/03/01/sifu-button-fin-1646171387727.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 7,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 25,
+        "name": "Mafia (Definitive Edition)",
+        "genre": "single-player",
+        "image": "https://assets-prd.ignimgs.com/2020/07/07/mafia-definitive-edition-mafia-1-button-1594154031856.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 3,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 26,
+        "name": "Metro Exodus",
+        "genre": "single-player",
+        "image": "https://assets1.ignimgs.com/2018/12/14/metro-exodus---button-1544750418985.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 9.3,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 27,
+        "name": "Jedi Fallen Order",
+        "genre": "single-player",
+        "image": "https://assets1.ignimgs.com/2019/11/11/star-wars-jedi-fallen-order---button-fin-2-1573507204864.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 9,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 28,
+        "name": "God of War (2018)",
+        "genre": "single-player",
+        "image": "https://assets-prd.ignimgs.com/2022/05/16/god-of-war-2018-1652716403586.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 10,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 29,
+        "name": "Deathloop",
+        "genre": "single-player",
+        "image": "https://assets-prd.ignimgs.com/2020/11/12/deathloop-button-1605211066759.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 8.5,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 30,
+        "name": "Resident Evil Village",
+        "genre": "single-player",
+        "image": "https://assets-prd.ignimgs.com/2021/01/22/re-village-button-fin-1611277715193.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 7.9,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 31,
+        "name": "Far Cry 6",
+        "genre": "single-player",
+        "image": "https://assets-prd.ignimgs.com/2020/07/10/far-cry-6-placeholder-1594397352824.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 4.2,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 32,
+        "name": "Far Cry 5",
+        "genre": "single-player",
+        "image": "https://assets1.ignimgs.com/2017/05/24/far-cry-5-button-1495644783373.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 8,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 33,
+        "name": "The Witness",
+        "genre": "single-player",
+        "image": "https://assets1.ignimgs.com/2017/04/26/the-witness---button-f-1493235698405.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 9.2,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 34,
+        "name": "Layers of Fear",
+        "genre": "single-player",
+        "image": "https://assets-prd.ignimgs.com/2021/12/17/layers-of-fear-button-fin-1639783134549.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 7.4,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 35,
+        "name": "Dead by Daylight",
+        "genre": "multiplayer",
+        "image": "https://assets1.ignimgs.com/2016/06/07/dead-by-daylight-buttonjpg-da8075.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 6.5,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 36,
+        "name": "Day Z",
+        "genre": "multiplayer",
+        "image": "https://assets-prd.ignimgs.com/2021/12/20/dayz-1640044421966.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 7.1,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 37,
+        "name": "Rage 2",
+        "genre": "single-player",
+        "image": "https://assets1.ignimgs.com/2019/05/15/rage-2---button-fin-1557882971693.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 3.6,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 38,
+        "name": "Days Gone",
+        "genre": "single-player",
+        "image": "https://assets1.ignimgs.com/2017/08/11/days-gone---button-2-1502413280476.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 4,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 39,
+        "name": "Batman Arkham Knight",
+        "genre": "single-player",
+        "image": "https://assets1.ignimgs.com/2019/08/26/batman-arkham-knight---button-fin-1566850614415.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 9.3,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 40,
+        "name": "Spider-Man",
+        "genre": "single-player",
+        "image": "https://assets-prd.ignimgs.com/2022/05/18/marves-spider-man0-5x-1652910625450.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 7,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 41,
+        "name": "Assasin's Creed Valhalla",
+        "genre": "single-player",
+        "image": "https://assets1.ignimgs.com/2020/04/30/assassins-creed-valhalla---button-fin-1588268099443.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 4,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 42,
+        "name": "Rec Room",
+        "genre": "multiplayer",
+        "image": "https://assets-prd.ignimgs.com/2021/12/30/rec-room-button-2021-1640849084274.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 6.9,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 43,
+        "name": "Gran Turismo 7",
+        "genre": "single-player",
+        "image": "https://assets-prd.ignimgs.com/2020/09/12/gran-turismo-7-button-sep2020-1599871750105.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 5.6,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 44,
+        "name": "TOEM",
+        "genre": "single-player",
+        "image": "https://assets-prd.ignimgs.com/2022/03/14/toem-button-fin-1647289795905.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 8.1,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 45,
+        "name": "Just Cause 3",
+        "genre": "single-player",
+        "image": "https://assets1.ignimgs.com/2015/10/26/just-cause-3-buttonjpg-996d80.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 7.8,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 46,
+        "name": "Immortals Fenyx Rising",
+        "genre": "single-player",
+        "image": "https://assets-prd.ignimgs.com/2020/10/28/immortals-fenyx-rising-button-fin-1603917826191.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 4.7,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 47,
+        "name": "Sniper Elite 5",
+        "genre": "single-player",
+        "image": "https://assets-prd.ignimgs.com/2022/03/17/sniper-elite-5-button-02-1647493699649.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 6,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 48,
+        "name": "No Man's Sky",
+        "genre": "multiplayer",
+        "image": "https://assets1.ignimgs.com/2019/08/14/no-mans-sky---beyond-version---button-1565744905061.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 7.3,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 49,
+        "name": "Little Nightmares",
+        "genre": "single-player",
+        "image": "https://assets2.ignimgs.com/2016/08/17/little-nightmares-button-2jpg-fe4425.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 8.4,
+        "played": false,
+        "description": ""
+    },
+    {
+        "id": 50,
+        "name": "First Class Trouble",
+        "genre": "multiplayer",
+        "image": "https://assets-prd.ignimgs.com/2021/09/23/first-class-trouble-button-01-1632368776231.jpg?width=300&crop=1%3A1%2Csmart",
+        "review": 8.1,
         "played": false,
         "description": ""
     }
+
     ]
 }
