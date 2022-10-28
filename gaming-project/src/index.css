@@ -57,8 +57,7 @@ main {
   border-radius: 25px;
   padding: 2rem 1rem;
   margin: 2rem 0;
-  background-color: black;
-}
+  background-image: url("https://1.bp.blogspot.com/-6L0ldjtM8l8/XtFt3wTVbsI/AAAAAAAAU4I/5xy3SZELokAdzuoq-oWsW650hprZPQqMwCLcBGAsYHQ/s640/bullets_compare_short_opt.gif");}
 
 .new-plant-form form {
   display: flex;
@@ -66,6 +65,7 @@ main {
 }
 
 .new-plant-form input {
+  border-radius: 25px;
   margin-right: 2rem;
   flex: 1;
 }
@@ -103,6 +103,8 @@ input:focus {
 
 .cards {
   list-style: none;
+  padding: 0rem;
+  margin: 0rem;
 }
 
 .card {
@@ -111,7 +113,7 @@ input:focus {
   border-radius: 25px;
   box-shadow: 10px 10px 5px rgb(85, 80, 80);
   background-color: black;
-  margin: 2rem;
+  margin: 5rem;
 }
 
 .card img {
@@ -126,7 +128,7 @@ input:focus {
   margin-left: 3rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   .cards {
     display: flex;
     flex-wrap: wrap;
@@ -165,7 +167,7 @@ img {
 .contact{
   position: absolute;
   top: 300px;
-  left: 575px;
+  left: 400px;
   margin: 0 auto;
   margin-left: auto;
   margin-right: auto;
@@ -181,7 +183,7 @@ img {
 .about-text{
   position: absolute;
   top: 300px;
-  left: 575px;
+  left: 400px;
   margin: 0 auto;
   margin-left: auto;
   margin-right: auto;
@@ -192,9 +194,76 @@ img {
   background-color: black;
   color: white;
   font-family: Apple Chancery, cursive;
-  
+}
 
+.add-game{
+  border-radius: 25px;
+}
 
+.card{
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
 
+.card-img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 15px;
+}
 
+.card-body{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background: #1f3d4738;
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 2s;
+}
+
+.card:hover .card-body{
+  right: 0;
+}
+
+.card-title{
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.card-sub-title{
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.card-info{
+  font-size: 16px;
+  line-height: 25px;
+  margin: 40px 0;
+  font-weight: 400;
+}
+
+.card-btn{
+  color: #1f3d47;
+  background: #8fabba;
+  padding: 10px 20px;
+  width: 120px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  cursor: pointer;
 }

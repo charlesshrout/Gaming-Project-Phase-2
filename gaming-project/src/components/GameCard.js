@@ -12,21 +12,20 @@ function GameCard({game}) {
     setPlayed((played) => !played)
   }
   return(
-    <li className="card">
-        <div onClick= {handleClick}>
-        {showFront ? 
-        (<img src={image} alt={name}/>) : (
-            <p className= "description">{description}</p>
-        )}
-      </div>
-      <h4>{name}</h4>
-      <p>Review: {review}</p>
-      {played ? (
+    <div className="card">
+    <img src={image} className="card-img" alt=""/>
+    <div className="card-body">
+        <h1 className="card-title">{name}</h1>
+        <p className="card-sub-title">Review: {review}</p>
+        <p className="card-info">{description}</p>
+
+        {played ? (
         <button className="primary" onClick = {handleTogglePlayed}>Played</button>
       ) : (
         <button onClick = {handleTogglePlayed}>Not Played</button>
       )}
-    </li>
+    </div>
+</div>
   );
 }
 
