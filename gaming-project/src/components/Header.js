@@ -3,7 +3,6 @@ import {NavLink} from "react-router-dom";
 
 function Header() {
     const linkStyles = {
-        borderRadius: "25px",
         textAlign: "center",
         display: "inline-block",
         width: "75px",

@@ -20,7 +20,6 @@ function NewGameForm({ onAddGame }) {
     })
     .then((r) => r.json())
     .then((newGame) => onAddGame(newGame));
-    e.reset(onAddGame)
   }
 
   return (

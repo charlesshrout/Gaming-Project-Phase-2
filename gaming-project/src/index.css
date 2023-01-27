@@ -10,6 +10,8 @@
 
 body {
   font-family: Noto Sans, sans-serif;
+  overflow: scroll;
+  scroll-behavior: smooth;
 }
 
 h2 {
@@ -29,14 +31,14 @@ button.primary {
 }
 
 .app {
-  margin: 0 auto;
+  margin: 50px;
   max-width: 1200px;
 }
 
 header h1 {
   font-size: 4.5em;
   font-weight: 900;
-  font-family: Luminari;
+  font-family: Andale Mono, monospace;
   text-align: center;
   padding: 0.5rem 0;
 }
@@ -57,7 +59,8 @@ main {
   border-radius: 25px;
   padding: 2rem 1rem;
   margin: 2rem 0;
-  background-image: url("https://1.bp.blogspot.com/-6L0ldjtM8l8/XtFt3wTVbsI/AAAAAAAAU4I/5xy3SZELokAdzuoq-oWsW650hprZPQqMwCLcBGAsYHQ/s640/bullets_compare_short_opt.gif");}
+  background-image: url("https://1.bp.blogspot.com/-6L0ldjtM8l8/XtFt3wTVbsI/AAAAAAAAU4I/5xy3SZELokAdzuoq-oWsW650hprZPQqMwCLcBGAsYHQ/s640/bullets_compare_short_opt.gif");
+}
 
 .new-plant-form form {
   display: flex;
@@ -130,6 +133,7 @@ input:focus {
 
 @media (min-width: 600px) {
   .cards {
+    text-align: center;
     display: flex;
     flex-wrap: wrap;
   }
@@ -153,7 +157,7 @@ input:focus {
 
 img {
   float: left;
-  width:  300px;
+  width: 300px;
   height: 200px;
   object-fit: cover;
 }
@@ -161,10 +165,10 @@ img {
 .description {
   margin-bottom: 62px;
   font-size: 1.5em;
-  text-align : center;
+  text-align: center;
 }
 
-.contact{
+.contact {
   position: absolute;
   top: 300px;
   left: 400px;
@@ -180,7 +184,7 @@ img {
   font-family: Apple Chancery, cursive;
 }
 
-.about-text{
+.about-text {
   position: absolute;
   top: 300px;
   left: 400px;
@@ -196,26 +200,27 @@ img {
   font-family: Apple Chancery, cursive;
 }
 
-.add-game{
+.add-game {
   border-radius: 25px;
 }
 
-.card{
-  width: 400px;
-  height: 500px;
+.card {
+  width: 200px;
+  margin: 30px;
+  height: 250px;
   border-radius: 20px;
   overflow: hidden;
   position: relative;
 }
 
-.card-img{
+.card-img {
   width: 100%;
   height: 100%;
   object-fit: fill;
   border-radius: 15px;
 }
 
-.card-body{
+.card-body {
   width: 100%;
   height: 100%;
   top: 0;
@@ -229,33 +234,35 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  transition: 2s;
+  transition: 1.2s;
 }
 
-.card:hover .card-body{
+.card:hover .card-body {
   right: 0;
 }
 
-.card-title{
+.card-title {
   text-transform: uppercase;
-  font-size: 50px;
+  display: inline-block;
+  height: auto;
+  font-size: 20px;
   font-weight: 500;
 }
 
-.card-sub-title{
+.card-sub-title {
   text-transform: capitalize;
-  font-size: 30px;
+  font-size: 15px;
   font-weight: 300;
 }
 
-.card-info{
+.card-info {
   font-size: 16px;
   line-height: 25px;
-  margin: 40px 0;
+  margin: 20px 0;
   font-weight: 400;
 }
 
-.card-btn{
+.card-btn {
   color: #1f3d47;
   background: #8fabba;
   padding: 10px 20px;
